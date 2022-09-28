@@ -314,7 +314,7 @@ border: none;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 100vh;
   width: 100vw;
   background-image: url(./imagenes/hero-background.jpg);
 }
@@ -406,6 +406,8 @@ border-radius: 50px;
   width: 80vw;
   border-bottom: 7px solid var(--azulO);
   padding-bottom: 20px;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 .seleccion__container label{
