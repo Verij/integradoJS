@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container__navbar">
+          <!--Menu hamburguesa-->
+          <div class="hamburguesa">
+            <span class="barra"></span>
+            <span class="barra"></span>
+            <span class="barra"></span>
+          </div>
+
+          <img src="./navbar-logo.png" alt="" />
+          <ul class="navbar__izquierda">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="https://Instagram.com/">Instagram</a></li>
+            <li><a href="https://Youtube.com/">Youtube</a></li>
+            <li><a href="https://Twitter.com/">Twitter</a></li>
+          </ul>
+
+          <!--fin navbar izquierda -->
+
+          <ul class="navbar__derecha">
+            <li>
+              <a href="#" class="carrito__logo" id="carrito__logo"
+                ><i class="fa fa-shopping-cart"></i> Cart
+                <span class="numero__carrito"></span
+              ></a>
+            </li>
+          </ul>
+          <!--fin navbar derecha-->
+        </div>
+        <!--fin contenedor nav -->
+      </nav>
+    </header>
+    <!--Menu carrito-->
+    <div class="menu__carrito" id="menu__carrito">
+      <div class="menu__carrito__container">
+        <div class="menu__carrito__header">
+          <div class="menu__carrito__icono">
+            <i class="fa fa-shopping-cart"></i
+            ><span class="numero__carrito"></span>
+          </div>
+          <div class="menu__carrito__total">
+            <span class="total__texto">Total:</span>
+            <span class="total__numero"></span>
+          </div>
+        </div>
+        <!--fin cabecera del carrito -->
+        <div class="items__carrito__compra">
+          <ul class="contenedor__renderizado__carrito">
+            <!--renderizado en js-->
+          </ul>
+        </div>
+        <a href="#" class="boton__compra">Comprar</a>
+      </div>
+      <!-- fin contenedor carrito -->
+    </div>
+    <!--fin carrito -->
+    <!--Hero-->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__texto">
+          <h2>Licoreria para todo lo gustelis</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+            repellendus eaque labore quia vero quam maiores perspiciatis! Harum,
+            perspiciatis aspernatur.
+          </p>
+        </div>
+        <div class="hero__img">
+          <img src="./imagenes/hero-imagen.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--seleccionar producto-->
+    <section class="categorias">
+      <div class="seleccion__container">
+        <label for="">Elija su preferencia:</label>
+        <select name="" id="seleccion__categorias">
+          <option value="todos">Todos</option>
+          <option value="sobremesa">Sobremesa</option>
+          <option value="aperitivo">Aperitivo</option>
+          <option value="digestivo">Digestivo</option>
+          <option value="refrescante">Refrescante</option>
+          <option value="chupito">Chupito</option>
+          <option value="popular">Popular</option>
+        </select>
+      </div>
+    </section>
+    <!--productos -->
+    <section class="seccion__productos">
+      <div class="cards__contenedor">
+        <!-- Renderizado en JS -->
+      </div>
+    </section>
+  </body>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</html>
