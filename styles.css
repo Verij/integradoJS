@@ -406,8 +406,6 @@ border-radius: 50px;
   width: 80vw;
   border-bottom: 7px solid var(--azulO);
   padding-bottom: 20px;
-  margin-left: 3px;
-  margin-right: 3px;
 }
 
 .seleccion__container label{
