@@ -695,8 +695,9 @@ margin-bottom: 10px;
       height: auto;
       display: flex;
       justify-content: center;
-
+      align-items: center;
       font-family: 'Comfortaa', cursive;
+      margin-top: 75px;
     }
   
     .login__title {
@@ -781,3 +782,22 @@ margin-bottom: 10px;
       background-color: var(--marronO);
     }
 
+@media(max-width: 576px) {
+.container__login__form {
+    width: 250px;
+  }
+.input__login__container {
+  width: 75%;
+  max-width: 350px;
+  height:250px;
+}
+.input__login__container input {
+  display: block;
+  margin: 0 auto;
+  padding: 1.1rem;
+  width: 100%;
+  height: 5px;
+  text-decoration: none;
+  border: none;
+}
+}
