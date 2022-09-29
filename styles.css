@@ -428,6 +428,19 @@ margin-top: 40px;
 margin-bottom: 10px;
 }
 
+@media(min-width: 576px) {
+
+  .seleccion__container label {
+      width: 150px;
+      margin-right: 25px;
+
+    }
+
+.seleccion__container select {
+    width: 150px;
+  }
+}
+
 /*seccion card productos*/
 
 .seleccion__productos{
