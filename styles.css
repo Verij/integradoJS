@@ -433,7 +433,7 @@ margin-bottom: 10px;
   .seleccion__container label {
       width: 100px;
       margin-right: 10px;
-
+      font-size: 1rem;
     }
 
 .seleccion__container select {
